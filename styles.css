@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700;800&family=Space+Mono&display=swap');
+body{
+    background-color:#1f2632 ;
+    min-height: 100vh;
+    font-size: 28px;
+    display: grid;
+    place-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    background-color:hsl(217, 19%, 24%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    max-width: 35rem;
+    padding: 20px;
+    margin: 0.5rem 0;
+
+}
+.x{
+    color:hsl(193, 38%, 86%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+span{
+    color:#52ffa8 ;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+}
+button{
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    top: 3rem;
+    background-color:#52ffa8 ;
+
+
+}
